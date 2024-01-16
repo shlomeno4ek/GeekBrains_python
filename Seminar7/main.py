@@ -45,3 +45,15 @@
 # orbits = [(1, 3), (2.5, 10), (7, 2), (6, 6), (4, 3)]
 # print(*find_farthest_orbit(orbits))
 
+# Задача 51
+
+# def same_by(characteristic, objects):
+#     return len(set(list(map(characteristic, objects)))) in (0, 1)
+
+
+# values = [3, 6, 9, 12, 15, 16]
+# if same_by(lambda x: x % 3, values):
+#     print('same')
+# else:
+#     print('different')
+
